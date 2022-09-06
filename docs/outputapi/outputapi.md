@@ -9,7 +9,7 @@ To use the SpecFlow output API interface you must inject the `ISpecFlowOutputHel
 
     public CalculatorStepDefinitions(ISpecFlowOutputHelper outputHelper)
     {
-        _outputHelper = outputHelper;
+        _specFlowOutputHelper = outputHelper;
     }
 ```
 
